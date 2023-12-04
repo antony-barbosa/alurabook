@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+.topicos {
+    background: var(--azul-degrade);
+    text-align: center;
+    padding: 1em 0;
+}
+
+.topicos__titulo {
+    font-family: var(--fonte-principal);
+    font-size: 1em;
+    font-weight: 300;
+    color: var(--branco);
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 0.5em
+}
+
+.topicos__lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.topicos__itens {
+    margin: 2em 0.5em;
+
+}
+
+
+.topicos__link {
+   background-color: var(--laranja);
+   color: var(--branco);
+   font-family: var(--fonte-principal);
+   text-decoration: none;
+   padding: 1em;
+   font-weight: 700;
+   font-size: 14px;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .topicos__titulo {
+        font-size: 24px;
+    }
+
+    .topicos__link {
+        font-size: 23px;
+    }
+}
+
+
+@media screen  and (min-width: 1728px) {
+    .topicos {
+        padding: 3em 30vw;
+    }
+
+
+}
